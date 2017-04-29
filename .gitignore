@@ -1,0 +1,6 @@
+env
+.tern-port
+.tern-project
+cscope.*
+.cache
+*pycache*
