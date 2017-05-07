@@ -1,11 +1,14 @@
 #!/usr/bin/python3
+""" Factorial function """
 import pytest
+
 
 def factorialize(num):
     if num == 0 or num == 1:
         return 1
     else:
-        return num * (factorialize(num-1))
+        return num * (factorialize(num - 1))
+
 
 # Tests
 def test_answer():
