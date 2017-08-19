@@ -1,0 +1,74 @@
+* Interview cake
+- Build up patterns
+  Stack, bottom-up instead of top-down, cut in half and solve each half
+-
+* Mock interview 1 19/8
+** Notes
+- learn to do 2d arrays in python
+- list comprehensions are good for this?
+- boundary arrays
+- recursion
+** Solution
+class Solution:
+    # @param A : list of strings
+    # @return an integer
+
+    0X
+    X0
+
+    01
+    10
+
+    X0X
+    X0X
+    XXX
+
+    100
+    000
+    000
+
+
+    count = 1
+
+    if A[i][j] == 'X' and V[i][j] != 'v':
+        V[i][j] = 'v'
+        if A[i+1][j] == 'X':
+            black(self, A[i+1][j])
+        if A[i-1][j] == 'X'
+            black(self, A[i-1][j])
+        if A[i][j-1] == 'X':
+            black(self, A[i][j-1])
+        if A[i][j+1] == 'X':
+            black(self, A[i][j+1])
+    elif A[i][j] == 'X':
+        return 1
+    else:
+        return
+
+
+
+
+    def black(self, A):
+        for elt A:
+            visited.append(0)
+        i = 0;
+        j = 0;
+        while i < len(A):
+            while j < len(A[i]):
+                if A[j] == 'X':
+
+
+                j += 1
+            i += 1
+
+
+
+        i = row, j = col
+        111   count =2
+        1vv
+        v11
+
+
+        xxx
+        x00
+        0xx
