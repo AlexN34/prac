@@ -3,3 +3,5 @@ Python quirks/syntax log
 a // b vs a/b : a // b rounds floating point as expected C, a / b actually
 does exact division
 a = 9, b = 2.5; a // b = 3.0, a/ b = 3.6
+* command line piping
+  e.g.cat test.txt| python 30_linkedlistdeletion.py
